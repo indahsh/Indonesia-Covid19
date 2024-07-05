@@ -48,7 +48,7 @@ Recalculated_Data AS (
   SELECT
     Date,
     New_Active_Cases,
-    SUM(New_Active_Cases) OVER (PARTITION BY Location_Level ORDER BY Date) AS Total_Active_Cases,
+    SUM(New_Active_Cases) OVER (PARTITION BY Location_ISO_Code ORDER BY Date) AS Total_Active_Cases,
     Total_Deaths,
     Total_Recovered,
     Location_Level
@@ -90,11 +90,10 @@ WITH Cleaned_Data AS (
 ),
 Recalculated_Data AS (
   SELECT
-    Date,
     Location_ISO_Code,
     Location,
     New_Active_Cases,
-    SUM(New_Active_Cases) OVER (PARTITION BY Location_Level ORDER BY Date) AS Total_Active_Cases,
+    SUM(New_Active_Cases) OVER (PARTITION BY Location_ISO_Code ORDER BY Date) AS Total_Active_Cases,
     Total_Deaths,
     Total_Recovered,
     Location_Level
@@ -138,11 +137,10 @@ WITH Cleaned_Data AS (
 ),
 Recalculated_Data AS (
   SELECT
-    Date,
     Location_ISO_Code,
     Location,
     New_Active_Cases,
-    SUM(New_Active_Cases) OVER (PARTITION BY Location_Level ORDER BY Date) AS Total_Active_Cases,
+    SUM(New_Active_Cases) OVER (PARTITION BY Location_ISO_Code ORDER BY Date) AS Total_Active_Cases,
     Total_Deaths,
     Total_Recovered,
     Location_Level
@@ -173,6 +171,7 @@ ORDER BY Case_Recovered_Rate;
 WITH Cleaned_Data AS (
   SELECT 
     Date,
+    Location_ISO_Code,
     CASE
       WHEN New_Active_Cases < 0 THEN 0
       ELSE New_Active_Cases
@@ -185,8 +184,7 @@ WITH Cleaned_Data AS (
 Recalculated_Data AS (
   SELECT
     Date,
-    New_Active_Cases,
-    SUM(New_Active_Cases) OVER (PARTITION BY Location_Level ORDER BY Date) AS Total_Active_Cases,
+    SUM(New_Active_Cases) OVER (PARTITION BY Location_ISO_Code ORDER BY Date) AS Total_Active_Cases,
     Total_Deaths,
     Total_Recovered,
     Location_Level
@@ -194,12 +192,18 @@ Recalculated_Data AS (
 ),
 Final_Data AS (
   SELECT
+    Date,
     (Total_Deaths + Total_Recovered + Total_Active_Cases) AS Total_Cases,
     Location_Level
   FROM Recalculated_Data
 )
 
 SELECT
-  COUNT(Total_Cases) AS Total_Data
+  Date,
+  Total_Cases
 FROM Final_Data
-WHERE Location_Level = 'Country' AND Total_Cases >= 30000;
+WHERE Location_Level = 'Country' AND Total_Cases >= 30000
+GROUP BY 
+  Date, 
+  Total_Cases
+ORDER BY Total_Cases;

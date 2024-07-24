@@ -12,7 +12,7 @@ The objectives to be achieved in this project are as follows the following.
 ## DATA AND METHOD
 ### Data
 <p align="justify">
-  The data used is COVID-19 case in Indonesia, spanning from March 1, 2020, to September 15, 2022, and was obtained from <a href="https://www.kaggle.com/datasets/hendratno/covid19-indonesia?resource=download">Kaggle</a>. The data used were from 34 provinces in Indonesia, consisting of 38 columns and 31,822 rows.
+  The data used is COVID-19 cases in Indonesia, spanning from March 1, 2020, to September 15, 2022, and was obtained from <a href="https://www.kaggle.com/datasets/hendratno/covid19-indonesia?resource=download">Kaggle</a>. The data used were from 34 provinces in Indonesia, consisting of 38 columns and 31,822 rows.
 </p>
 
 ### Method
@@ -38,7 +38,7 @@ The steps used in this project are as follows.
   Based on provincial-level data, West Java has the highest number of active cases at 380,287.
 </p>
 
-2. <p align="justify">Take 2 data based on the location iso code with the fewest deaths due to Covid-19!</p>
+2. <p align="justify">Take 2 data based on the location ISO code with the fewest deaths due to Covid-19!</p>
 
 | Location_ISO_Code | Location | Total_Deaths |
 | --- | --- | --- |
@@ -65,7 +65,7 @@ The steps used in this project are as follows.
   Based on national-level data, May 23, 2022, had the highest Case Recovered Rate (CRR) of 97.366%, with 5,893,340 cases recovered.
 </p>
 
-4. <p align="justify">Total case fatality rate and case recovered rate of each location iso code sorted from the lowest data?</p>
+4. <p align="justify">Total case fatality rate and case recovered rate of each location ISO code sorted from the lowest data?</p>
 
 a. Case fatality rate
 
@@ -115,7 +115,7 @@ b. Case recovered rate
   Covid-19 cases at a national level have a total of >30,000 cases, starting on June 6, 2020, with 30,533 cases.
 </p>
 
-## DASHBOARD INTERPRETATION
+## DASHBOARD
 <p align="center">
   <img src="https://github.com/user-attachments/assets/2da2d898-c62c-4f6c-9667-cbfdf5b426cd" width="75%"/>
 </p>
@@ -129,8 +129,9 @@ b. Case recovered rate
 - Based on the time series diagram, there are 4 waves of Covid-19 in Indonesia: the first peak in January 2021, the second peak in July 2021, the third peak in February 2022, and the fourth peak in August 2022.
 - West Java has the highest total active COVID-19 cases, with 380.287 cases.
 - Central Java is the province with the highest number of total deaths due to Covid-19, with 33.480 cases.
-- East Java is the province with the highest Case Fatality Rate (CFR) of 5,46%, with a Case Recovered Rate (CRR) of 78,12%
-
-## KEY FINDINGS
+- East Java has the highest Case Fatality Rate (CFR) of 5,46%, with a Case Recovered Rate (CRR) of 78,12%.
 
 ## RECOMMENDATION STRATEGIES
+1. <p align="justify">Direct more resources and healthcare services to regions with the highest active cases, such as West Java and DKI Jakarta. Meanwhile, healthcare capacity in regions with the least reported deaths should be enhanced to ensure they are prepared for potential outbreaks.</p>
+2. <p align="justify">Continue public health campaigns emphasizing the importance of vaccination, mask-wearing, and social distancing. Target regions with lower recovery rates to improve vaccination coverage, thus reducing the case fatality rate.</p>
+3. <p align="justify">Expand healthcare infrastructure in areas with high active cases to handle potential surges in COVID-19 cases. Provide healthcare workers with adequate training, support, and resources, especially in high-impact areas.</p>

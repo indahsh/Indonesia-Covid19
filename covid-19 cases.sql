@@ -1,4 +1,4 @@
--- (1) Jumlah total kasus Covid-19 aktif yang baru di setiap provinsi lalu diurutkan berdasarkan jumlah kasus yang paling besar
+-- (1) The total number of new active Covid-19 cases in each province and then sorted by the highest number of cases.
 WITH Cleaned_Data AS (
   SELECT 
     Date,
@@ -18,7 +18,7 @@ WHERE Location_Level = 'Country'
 GROUP BY Date
 ORDER BY Total_New_Active_Cases DESC;
 
--- (2) Mengambil 2 (dua) location iso code yang memiliki jumlah total kematian karena Covid-19 paling sedikit
+-- (2) Taking 2 location iso codes that have the least number of total deaths due to Covid-19
 SELECT 
   Location_ISO_Code, 
   Location,
@@ -31,7 +31,7 @@ GROUP BY
 ORDER BY Total_Deaths
 LIMIT 2;
 
--- (3) Data tentang tanggal-tanggal ketika rate kasus recovered di Indonesia paling tinggi beserta jumlah rate-nya
+-- (3) Data on the dates when the rate of recovered cases in Indonesia was highest and the number of rates
 WITH Cleaned_Data AS (
   SELECT 
     Date,
@@ -72,7 +72,7 @@ WHERE Location_Level = 'Country'
 GROUP BY Date
 ORDER BY Case_Recovered_Rate DESC;
 
--- (4) Total case fatality rate dan case recovered rate dari masing-masing location iso code yang diurutkan dari data yang paling rendah
+-- (4) Total case fatality rate and case recovered rate of each location iso code sorted from the lowest data
 -- (a) Total case fatality rate
 WITH Cleaned_Data AS (
   SELECT 
@@ -167,7 +167,7 @@ GROUP BY
   Location
 ORDER BY Case_Recovered_Rate;
 
--- (5) Data tentang tanggal-tanggal saat total kasus Covid-19 mulai menyentuh angka 30.000-an
+-- (5) Data on the dates when the total number of Covid-19 cases started to hit the 30,000 mark
 WITH Cleaned_Data AS (
   SELECT 
     Date,

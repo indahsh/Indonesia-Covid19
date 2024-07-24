@@ -1,0 +1,35 @@
+Location_ISO_Code,Location,Case_Recovered_Rate
+ID-PA,Papua,81.207%
+ID-LA,Lampung,88.26%
+ID-AC,Aceh,89.595%
+ID-JT,Jawa Tengah,90.18%
+ID-SS,Sumatera Selatan,91.673%
+ID-JI,Jawa Timur,91.795%
+ID-SA,Sulawesi Utara,92.003%
+ID-YO,Daerah Istimewa Yogyakarta,92.438%
+ID-KT,Kalimantan Tengah,92.463%
+ID-NB,Nusa Tenggara Barat,92.686%
+ID-MU,Maluku Utara,92.783%
+ID-SU,Sumatera Utara,92.885%
+ID-MA,Maluku,93.149%
+ID-KU,Kalimantan Utara,93.19%
+ID-JA,Jambi,93.398%
+ID-ST,Sulawesi Tengah,93.444%
+ID-KS,Kalimantan Selatan,93.449%
+ID-SG,Sulawesi Tenggara,93.524%
+ID-SR,Sulawesi Barat,93.581%
+ID-BA,Bali,93.701%
+ID-GO,Gorontalo,93.706%
+ID-KR,Kepulauan Riau,93.841%
+ID-JB,Jawa Barat,94.007%
+ID-KI,Kalimantan Timur,94.207%
+ID-BE,Bengkulu,94.291%
+ID-SB,Sumatera Barat,94.311%
+ID-RI,Riau,94.535%
+ID-NT,Nusa Tenggara Timur,94.562%
+ID-BT,Banten,94.757%
+ID-BB,Kepulauan Bangka Belitung,94.908%
+ID-SN,Sulawesi Selatan,95.073%
+ID-KB,Kalimantan Barat,95.376%
+ID-PB,Papua Barat,95.538%
+ID-JK,DKI Jakarta,96.458%

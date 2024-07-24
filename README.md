@@ -132,6 +132,6 @@ b. Case recovered rate
 - East Java has the highest Case Fatality Rate (CFR) of 5,46%, with a Case Recovered Rate (CRR) of 78,12%.
 
 ## RECOMMENDATION STRATEGIES
-1. <p align="justify">Direct more resources and healthcare services to regions with the highest active cases, such as West Java and DKI Jakarta. Meanwhile, healthcare capacity in regions with the least reported deaths should be enhanced to ensure they are prepared for potential outbreaks.</p>
+1. <p align="justify">Direct more resources and healthcare services to regions with the highest active cases. Meanwhile, healthcare capacity in regions with the least reported deaths should be enhanced to ensure they are prepared for potential outbreaks.</p>
 2. <p align="justify">Continue public health campaigns emphasizing the importance of vaccination, mask-wearing, and social distancing. Target regions with lower recovery rates to improve vaccination coverage, thus reducing the case fatality rate.</p>
 3. <p align="justify">Expand healthcare infrastructure in areas with high active cases to handle potential surges in COVID-19 cases. Provide healthcare workers with adequate training, support, and resources, especially in high-impact areas.</p>

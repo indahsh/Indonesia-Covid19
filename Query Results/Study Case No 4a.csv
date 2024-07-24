@@ -1,0 +1,35 @@
+Location_ISO_Code,Location,Case_Fatality_Rate
+ID-PA,Papua,1.34%
+ID-PB,Papua Barat,1.39%
+ID-JK,DKI Jakarta,1.406%
+ID-BT,Banten,1.418%
+ID-JB,Jawa Barat,1.616%
+ID-MA,Maluku,1.627%
+ID-SN,Sulawesi Selatan,1.818%
+ID-NT,Nusa Tenggara Timur,1.853%
+ID-KU,Kalimantan Utara,1.96%
+ID-BE,Bengkulu,1.968%
+ID-KB,Kalimantan Barat,1.996%
+ID-SG,Sulawesi Tenggara,2.265%
+ID-SB,Sumatera Barat,2.281%
+ID-JA,Jambi,2.332%
+ID-BB,Kepulauan Bangka Belitung,2.455%
+ID-MU,Maluku Utara,2.47%
+ID-SU,Sumatera Utara,2.471%
+ID-SR,Sulawesi Barat,2.501%
+ID-SA,Sulawesi Utara,2.744%
+ID-KT,Kalimantan Tengah,2.79%
+ID-KR,Kepulauan Riau,2.822%
+ID-YO,Daerah Istimewa Yogyakarta,2.886%
+ID-NB,Nusa Tenggara Barat,2.907%
+ID-RI,Riau,2.934%
+ID-KI,Kalimantan Timur,2.952%
+ID-ST,Sulawesi Tengah,3.029%
+ID-BA,Bali,3.045%
+ID-KS,Kalimantan Selatan,3.184%
+ID-GO,Gorontalo,3.463%
+ID-SS,Sumatera Selatan,4.588%
+ID-AC,Aceh,4.914%
+ID-JT,Jawa Tengah,5.483%
+ID-LA,Lampung,6.218%
+ID-JI,Jawa Timur,6.412%

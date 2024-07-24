@@ -1,7 +1,7 @@
--- (1) What is the total number of new active Covid-19 cases in each province, and then is it sorted by the highest number of cases?
+-- (1) Data with the largest total number of active COVID-19 cases sorted by Province?
 WITH Cleaned_Data AS (
   SELECT 
-    Date,
+    Province,
     CASE
       WHEN New_Active_Cases < 0 THEN 0
       ELSE New_Active_Cases
@@ -11,14 +11,14 @@ WITH Cleaned_Data AS (
 )
 
 SELECT 
-  Date,
+  Province,
   SUM(New_Active_Cases) AS Total_New_Active_Cases
 FROM Cleaned_Data
-WHERE Location_Level = 'Country'
-GROUP BY Date
+WHERE Location_Level = 'Province'
+GROUP BY Province
 ORDER BY Total_New_Active_Cases DESC;
 
--- (2) Take 2 location iso codes with the least deaths due to Covid-19!
+-- (2) Take 2 data based on the location iso code with the fewest deaths due to Covid-19!
 SELECT 
   Location_ISO_Code, 
   Location,
@@ -31,7 +31,7 @@ GROUP BY
 ORDER BY Total_Deaths
 LIMIT 2;
 
--- (3) Data on when the rate of recovered cases in Indonesia was highest and the number of rates?
+-- (3) Data on when case rates recovered in Indonesia were highest by a number of rates?
 WITH Cleaned_Data AS (
   SELECT 
     Date,
@@ -167,7 +167,7 @@ GROUP BY
   Location
 ORDER BY Case_Recovered_Rate;
 
--- (5) Data on when the total number of Covid-19 cases started to hit 30,000?
+-- (5) Data on when the total number of Covid-19 cases started to hit >30,000?
 WITH Cleaned_Data AS (
   SELECT 
     Date,

@@ -1,6 +1,6 @@
 # COVID-19 IN INDONESIA
 <p align="justify">
-  This project uses SQL programming language/Google BigQuery to process data and <a href="https://lookerstudio.google.com/reporting/29d3df9b-9966-4874-a23b-513b86a9ed0b">Looker Studio</a> to create an interactive dashboard. I completed this project while participating in Fresh Graduate Academy at <a href="https://www.linkedin.com/in/indahsh/details/education/968984033/multiple-media-viewer/?profileId=ACoAADQ0K_IBB-BflJ1wnBkU3Z47qF6xVW9xyvI&treasuryMediaId=1714306461924">Digital Talent Scholarship</a>.
+  This project uses SQL with Google BigQuery to process data and <a href="https://lookerstudio.google.com/reporting/29d3df9b-9966-4874-a23b-513b86a9ed0b">Looker Studio</a> to create an interactive dashboard. I completed this project while participating in Fresh Graduate Academy at <a href="https://www.linkedin.com/in/indahsh/details/education/968984033/multiple-media-viewer/?profileId=ACoAADQ0K_IBB-BflJ1wnBkU3Z47qF6xVW9xyvI&treasuryMediaId=1714306461924">Digital Talent Scholarship</a>.
 </p>
 
 ## OBJECTIVES

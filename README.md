@@ -5,9 +5,9 @@
 
 ## OBJECTIVES
 The objectives to be achieved in this project are as follows the following.
-1. <p align="justify">Analyze and present COVID-19 data for Indonesia, focusing on different aspects such as active cases, deaths, and recoveries.</p>
-2. <p align="justify">Identify provinces with the highest number of new active cases, the least number of deaths, and highlight areas with significant changes in recovery and fatality rates.</p>
-3. <p align="justify">Track the progression of COVID-19, including identifying peaks and understanding the impact of the virus in different regions.</p>
+1. <p align="justify">Analyze and present COVID-19 data for Indonesia.</p>
+2. <p align="justify">Track the progression of COVID-19, including identifying peaks and understanding the impact of the virus in different regions.</p>
+3. <p align="justify">Helping better decision-making related to the Covid-19 pandemic.</p>
 
 ## DATA AND METHOD
 ### Data

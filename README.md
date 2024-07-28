@@ -3,25 +3,25 @@
   This project uses SQL with Google BigQuery to process data and <a href="https://lookerstudio.google.com/reporting/29d3df9b-9966-4874-a23b-513b86a9ed0b">Looker Studio</a> to create an interactive dashboard. I completed this project while participating in Fresh Graduate Academy at <a href="https://www.linkedin.com/in/indahsh/details/education/968984033/multiple-media-viewer/?profileId=ACoAADQ0K_IBB-BflJ1wnBkU3Z47qF6xVW9xyvI&treasuryMediaId=1714306461924">Digital Talent Scholarship</a>.
 </p>
 
-## OBJECTIVES
+## 1. OBJECTIVES
 The objectives to be achieved in this project are as follows the following.
 1. <p align="justify">Analyze and present COVID-19 data for Indonesia.</p>
 2. <p align="justify">Track the progression of COVID-19, including identifying peaks and understanding the impact of the virus in different regions.</p>
 3. <p align="justify">Helping better decision-making related to the Covid-19 pandemic.</p>
 
-## DATA AND METHOD
-### Data
+## 2. DATA AND METHOD
+### 2.1. Data
 <p align="justify">
   The data used is COVID-19 cases in Indonesia, spanning from March 1, 2020, to September 15, 2022, and was obtained from <a href="https://www.kaggle.com/datasets/hendratno/covid19-indonesia?resource=download">Kaggle</a>. The data used were from 34 provinces in Indonesia, consisting of 38 columns and 31,822 rows.
 </p>
 
-### Method
+### 2.2. Method
 The steps used in this project are as follows.
 1. <p align="justify">Collecting data from Kaggle.</p>
 2. <p align="justify">Cleaning and processing data using SQL in Google BigQuery to ensure accuracy.</p>
 3. <p align="justify">Creating visualization in Looker Studio to provide an interactive way to explore the data.</p>
 
-## STUDY CASES
+## 3. STUDY CASES
 1. <p align="justify">Data with the largest total number of active COVID-19 cases sorted by Province?</p>
 
 | Province | Total_New_Active_Cases |
@@ -115,7 +115,7 @@ b. Case recovered rate
   Covid-19 cases at a national level have a total of >30,000 cases, starting on June 6, 2020, with 30,533 cases.
 </p>
 
-## DASHBOARD
+## 4. DASHBOARD
 <p align="center">
   <img src="https://github.com/user-attachments/assets/2da2d898-c62c-4f6c-9667-cbfdf5b426cd" width="75%"/>
 </p>
@@ -131,7 +131,7 @@ b. Case recovered rate
 - Central Java is the province with the highest number of total deaths due to Covid-19, with 33.480 cases.
 - East Java has the highest Case Fatality Rate (CFR) of 5,46%, with a Case Recovered Rate (CRR) of 78,12%.
 
-## RECOMMENDATION STRATEGIES
+## 5. RECOMMENDATION STRATEGIES
 1. <p align="justify">Direct more resources and healthcare services to regions with the highest active cases. Meanwhile, healthcare capacity in regions with the least reported deaths should be enhanced to ensure they are prepared for potential outbreaks.</p>
 2. <p align="justify">Continue public health campaigns emphasizing the importance of vaccination, mask-wearing, and social distancing. Target regions with lower recovery rates to improve vaccination coverage, thus reducing the case fatality rate.</p>
 3. <p align="justify">Expand healthcare infrastructure in areas with high active cases to handle potential surges in COVID-19 cases. Provide healthcare workers with adequate training, support, and resources, especially in high-impact areas.</p>
